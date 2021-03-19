@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Please click on the movie to get the details
+  p
+   a(href="/new") Add New Movie
+  for movie in movies
+    ul#list
+        .row
+            .col-xs-12
+                a(href="/movies/"+movie._id)= movie.movieName
+  
+  br
+  br
+  br
+
+    

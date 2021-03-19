@@ -1,0 +1,33 @@
+extends layout
+
+block content
+ form(method='POST' action='')
+  table
+   tr
+    th
+     label(for='movieName') Movie Name:
+    th
+     input(type='text', placeholder='Movie Name' name='movieName')
+   tr
+    th 
+     label(for='movieDirector') Movie Director:
+    th
+     input(type='text', placeholder='Movie Director' name='movieDirector')
+   tr
+    th 
+     label(for='movieYear') Movie Year:
+    th
+     input(type='text', placeholder='Movie Year' name='movieYear')
+   tr
+    th 
+     label(for='movieRating') Movie Rating:
+    th
+     input(type='text', placeholder='Movie Rating' name='movieRating')
+   tr
+    th 
+     label(for='movieType') Movie Type:
+    th
+     input(type='text', placeholder='Movie Type' name='movieType')
+   tr
+    th(colspan='2')
+     button(type='Submit', name='Submit') Submit

@@ -1,0 +1,6 @@
+const About = (req, res,next) => {
+res.render('about', { title: 'About my site',value:'We take a look at the success story of online ticketing platform “Movie Store” and how the mastermind behind the idea — Ashish Hemrajani, overcame obstacles. He turned his visions into a multi-million dollar company IDEATION While he was sitting under a tree and listening to radio promoting Rugby tickets, an idea struck to his mind. He researched on his idea, understood the market and contemplated a strategy. He then came back to India, quit his job immediately and decided to start his own company. At the age of 24, he launched his first ever internet venture “Bigtree Entertainment Pvt. Ltd.” with his head office being his bedroom. Soon after, he persuaded his friends Rajesh Balpande and Parikshit Dar to join the company. Parikshit took over technology and Rajesh handled finance. Soon the trio began their journey together as entrepreneurs and led the way forward for Bigtree Entertainment Pvt. Ltd. As they had limited cash with them at that time, they started approaching investors. Now back those days, it wasn’t as easy as it is now to get investors. And as internet and technology were not prevalent it was even more difficult to present their proposal' });
+};
+module.exports={
+    About
+};
